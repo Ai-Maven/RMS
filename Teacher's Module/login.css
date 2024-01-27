@@ -15,8 +15,7 @@ body{
     flex-direction: column;
 }
 form {
-    width: 100%; 
-    max-width: 350px; 
+    width: 350px;  
     margin: auto;
 }
 /* Form container modification */
@@ -24,8 +23,13 @@ form {
     position: relative;
     text-align: center;
     display: flex;
+    align-items: center;
     justify-content: center;
-    
+    width: 400px;
+    background-color: white;
+    border: 1px solid rgb(174, 207, 236);
+    border-radius: 10px;
+    margin-top: 25px;
 }
 /* Input That contain Username and Password */
 input{
@@ -45,8 +49,12 @@ input[type="submit"]{
         color: white;
         cursor: pointer;
 }
+input[type="submit"]:hover{
+    background-color: rgb(138, 196, 246);
+}
 a{
     text-decoration: none;
-    display: block;
+    display: flex;
     text-align: start;
+    margin: 5px;
 }
