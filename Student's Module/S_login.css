@@ -1,0 +1,79 @@
+body{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+  /*styling login form container */
+.form-container{
+    width: 30%;
+    float: left;
+    margin: 0;
+    padding: 5% 35%;
+    background-color: white;
+}
+  /*styling login form*/
+.form-container form{
+    background-color:white;
+    width:80%;
+    padding: 15% 10%;
+    margin: 0;
+    border: 2px solid #d4d4d4ee;
+}
+
+  /*styling login form input i.e Admission no and password*/
+.input1, .input2{
+    width: 96%;
+    appearance: none;
+    outline: none;
+    border: 1px solid #410093;
+    padding: 10px 5px;
+    margin: 3px;
+}
+ /*Adding margin-bottom to Admission no input to get spacce between input1 and input2*/
+.input1{
+    margin-bottom: 9%;
+}
+
+/*Styling forgetPassowrd link*/
+.forgetPassw a{
+    color: black;
+    text-decoration-line: none;
+    font-size: small;
+    margin-left: 90px;
+}
+/*Adding hover to forgetPassowrd link*/
+a:hover{
+    color: #410093;
+}
+/*Styling login button*/
+.button1{
+    width: 100%;
+    padding: 3px 50px;
+    background-color: #410093;
+    border-style: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 7px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/*Adding hover to login button*/
+button:hover{
+    opacity:1;
+} 
+
+@media only screen and (max-width:600px){
+    .form-container{
+        width: 100%;
+        height: 100;
+        padding: 0%;
+    }
+    .forgetPassw a{
+        margin-left: 65px;
+    }
+}
